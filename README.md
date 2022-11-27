@@ -1,6 +1,6 @@
 <h1>Exercises Java</h1>
 
-<a href="https://dev.java/future/" target="blanck" ><img src="https://www.luiztools.com.br/wp-content/uploads/2017/04/Java-1-Introduction.png" width="860" height="270" alt="Jest" /></a>
+<a href="https://dev.java/future/" target="blanck" ><img src="https://media-exp1.licdn.com/dms/image/C4E16AQH7g6I0Kbnnaw/profile-displaybackgroundimage-shrink_200_800/0/1630871431685?e=2147483647&v=beta&t=TlKgdTavpumhi_onswzlkHttSJMce0-2yQ6z7rBoDks" width="860" height="270" alt="Jest" /></a>
 
 <h3>Conteúdos desenvolvidos nos exercícios</h3>
 
