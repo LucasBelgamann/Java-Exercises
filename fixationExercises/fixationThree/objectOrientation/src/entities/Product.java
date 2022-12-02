@@ -4,4 +4,9 @@ public class Product {
     public String name;
     public double price;
     public int quantity;
+
+
+    public double totalValueInStock() {}
+    public void addProducts(int quantity) {}
+    public double removeProducts(int quantity) {}
 }
