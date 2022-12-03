@@ -21,6 +21,7 @@ public class ProgamamTwo {
 
         System.out.println(product.name + ", " + product.price + ", " + product.quantity);
 
+
         scanner.close();
     }
 }
