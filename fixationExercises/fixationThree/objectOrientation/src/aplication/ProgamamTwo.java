@@ -13,13 +13,14 @@ public class ProgamamTwo {
         Product product = new Product();
         System.out.println("Enter product data: ");
         System.out.print("Name: ");
-        product.name = scanner.nextLine();
-        System.out.print("Price: ");
-        product.price = scanner.nextDouble();
+        product.name = scanner.nextLine(); // TV
+        System.out.print("Price: "); 
+        product.price = scanner.nextDouble(); // 900.00
         System.out.print("Quantity: ");
-        product.quantity = scanner.nextInt();
+        product.quantity = scanner.nextInt(); // 10
 
-        System.out.println(product.name + ", " + product.price + ", " + product.quantity);
+        System.out.println(product);
+        // Saída: TV, 900.00, 10 units, Total: 9000.00
 
 
         scanner.close();
