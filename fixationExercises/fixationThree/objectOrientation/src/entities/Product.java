@@ -6,7 +6,15 @@ public class Product {
     public int quantity;
 
 
-    public double totalValueInStock() {}
-    public void addProducts(int quantity) {}
-    public double removeProducts(int quantity) {}
+    public double totalValueInStock() {
+        return price * quantity;
+    }
+
+    public void addProducts(int quantity) {
+        this.quantity += quantity;
+    }
+
+    public void removeProducts(int quantity) {
+        this.quantity -= quantity;
+    }
 }
