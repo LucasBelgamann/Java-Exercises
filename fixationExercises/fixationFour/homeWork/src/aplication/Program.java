@@ -11,10 +11,10 @@ public class Program {
     public static void main(String[] args) throws Exception {
 
         Locale.setDefault(Locale.US);
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); // Atribuição do Scanner para a variável scanner
 
-        System.out.println("Enter radius: ");
-        double radius = scanner.nextDouble();
+        System.out.print("Enter radius: ");
+        double radius = scanner.nextDouble(); // Responsável em faze a leitura do valor que o usuário colocar.
 
         double c = circumference(radius); // Função para calcular a circunferência
         double v = volume(radius); // Função para calcular a volume.
@@ -24,5 +24,13 @@ public class Program {
         System.out.printf("PI value: %.2f%n", PI);
 
         scanner.close();
+    }
+
+    public static double circumference(double radius) {
+        return 2.0 * PI * radius;
+    }
+
+    public static double volume(double radius) {
+        return 4.0 * PI * radius * radius * radius / 3.0;
     }
 }
