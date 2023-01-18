@@ -3,6 +3,8 @@ package aplication;
 import java.util.Locale;
 import java.util.Scanner;
 
+import util.Calculator;
+
 public class Program {
     // A declaração final, transforma a variável em uma constante, ou seja, o valor
     // não pode ser alterado.
@@ -14,15 +16,12 @@ public class Program {
         Scanner scanner = new Scanner(System.in); // Atribuição do Scanner para a variável scanner
 
         System.out.print("Enter radius: ");
-        double radius = scanner.nextDouble(); // Responsável em faze a leitura do valor que o usuário colocar.
-
-        double c = circumference(radius); // Função para calcular a circunferência
-        double v = volume(radius); // Função para calcular a volume.
-
-        System.out.printf("circumference: %.2f%n", c);
+        double radius = scanner.nextDouble();
+        double c = Calculator.circumference(radius);
+        double v = Calculator.volume(radius);
+        System.out.printf("Circumference: %.2f%n", c);
         System.out.printf("Volume: %.2f%n", v);
-        System.out.printf("PI value: %.2f%n", PI);
-
+        System.out.printf("PI value: %.2f%n", Calculator.PI);
         scanner.close();
     }
 
