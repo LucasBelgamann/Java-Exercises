@@ -14,16 +14,14 @@ public class Program {
         String name = sc.nextLine();
         System.out.print("Price: ");
         double price = sc.nextDouble();
-        System.out.print("Quantity in stock: ");
-        int quantity = sc.nextInt();
         // Instância do construtor passando os atributos necessários
-        Product product = new Product(name, price, quantity);
+        Product product = new Product(name, price);
 
         System.out.println();
         System.out.println("Updated data: " + product);
         System.out.println();
         System.out.print("Enter the number of products to be removed from stock: ");
-        quantity = sc.nextInt();
+        int quantity = sc.nextInt();
         product.removeProducts(quantity);
         System.out.println();
         System.out.println("Updated data: " + product);
